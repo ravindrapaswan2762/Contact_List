@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: darkslategray;
+}
+.container{
+    padding: 0;
+    height: auto;
+    width: 40%;
+    /* border: 2px dashed gray; */
+    margin-top: 34px;
+    margin-left: 30vw;
+    /* border-radius: 2%; */
+    
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+.list{
+    margin-left: -40px;
+    margin-right: 60px;
+}
+
+.list .list-item{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: cyan;
+    border-bottom: 2px solid darkslategray;
+
+}
+.list .list-item:hover{
+    background-color: darkslategray;
+    .fa-user{
+        color: white;
+    }
+    .fa-window-close{
+        background-color: red;
+        color: white;
+    }
+    .text{
+        font-weight: bold;
+        color: white;
+    }
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+form input{
+    width: 40%;
+    height: 4vh;
+}
+.fa-user{
+    color: darkslategray;
+}
+.fa-window-close{
+    color: darkslategray;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(21, 82, 108);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
